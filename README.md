@@ -7,15 +7,18 @@ RabbitMQ (Asynchronous Messaging)
 JWT (Authentication & Authorization)
 PostgreSQL (Database)
 Docker (Containerization)
+
 🏗️ Microservices:
 User Service – Handles authentication & user management.
 Event Service – Manages event creation, updates, and deletion (Admin only).
 Ticket Service – Handles ticket purchases & refunds.
 Payment Service – Simulates payment processing.
+
 🔄 Communication Flow:
 RabbitMQ for async messaging.
 JWT for secure authentication.
 PostgreSQL for data persistence.
+
 📈 Future Enhancements:
 Implement SAGA Pattern for transaction consistency.
 Integrate real payment gateways.
