@@ -1,0 +1,10 @@
+--CREATE TABLE event (
+--    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+--    name VARCHAR NOT NULL, -- Name of the event
+--    description TEXT NOT NULL, -- Description of the event
+--    event_date TIMESTAMP NOT NULL, -- Date and time of the event
+--    location VARCHAR NOT NULL, -- Event location
+--    available_tickets INT NOT NULL, -- Number of tickets available
+--    ticket_price NUMERIC(10, 2) NOT NULL, -- Ticket price with two decimal precision
+--    organizer_id UUID NOT NULL -- Reference to the organizer
+--);
